@@ -1,5 +1,7 @@
 'use strict';
+
 const form = document.querySelector('.page__section--send');
+
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   e.target.reset();
